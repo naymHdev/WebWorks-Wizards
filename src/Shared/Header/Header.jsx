@@ -31,7 +31,7 @@ export default function Header() {
             <HiMiniBars3BottomRight className=" text-3xl" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-12">
+        <Popover.Group className="hidden lg:flex  lg:gap-x-12">
           <HeaderLink />
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
