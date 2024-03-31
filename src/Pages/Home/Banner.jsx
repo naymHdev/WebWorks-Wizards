@@ -1,12 +1,36 @@
 import banner from "../../assets/web-banner.png";
+import { MdChevronRight } from "react-icons/md";
 
 const Banner = () => {
   return (
-    <div>
+    <>
       <div className="">
         <img className="w-full" src={banner} alt="" />
       </div>
-    </div>
+      <section className=" mt-16">
+        <div className=" text-center">
+          <h3 className=" text-4xl font-semibold text-slate-900">
+            It’s a new day for your data.
+          </h3>
+          <p className=" text-slate-800 mt-4">
+            This is the start of something special. We’re very happy to share
+            that Splunk is now a Cisco company.
+          </p>
+        </div>
+        <div className="mt-12 flex items-center justify-center gap-8">
+          <button className="bg-[#33B08D] text-slate-50 text-xl font-medium p-5 btn rounded-full">
+            Find out more
+          </button>
+          <div className=" flex items-center justify-center">
+            <p className=" text-xl font-semibold hover:underline text-[#33B08D]">
+              Hear from Cisco and Splunk execs
+            </p>
+            <MdChevronRight className="text-[#33B08D] text-xl" />
+          </div>
+        </div>
+        <hr className="mt-10 mb-10" />
+      </section>
+    </>
   );
 };
 

@@ -14,7 +14,7 @@ const Footer = () => {
           </Link>
           <span className="text-sm">Crafting digital magic</span>
         </div>
-        <div className="flex space-x-4">
+        <div className="md:flex grid md:space-x-4">
           <a
             href="/"
             className=" text-slate-700 hover:text-slate-950 hover:font-semibold"
