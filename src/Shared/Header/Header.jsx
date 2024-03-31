@@ -1,7 +1,11 @@
-import { Fragment, useState } from "react";
-import { Dialog, Popover, Transition } from "@headlessui/react";
+import { useState } from "react";
+import { Dialog, Popover } from "@headlessui/react";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
+import Logo from "../../assets/webWorks-logo.png";
+import HeaderLink from "./HeaderLink";
+
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -12,14 +16,10 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
-          </a>
+            <img className=" h-full w-12" src={Logo} alt="" />
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -32,33 +32,7 @@ export default function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-              Product
-            </Popover.Button>
-
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-200"
-              enterFrom="opacity-0 translate-y-1"
-              enterTo="opacity-100 translate-y-0"
-              leave="transition ease-in duration-150"
-              leaveFrom="opacity-100 translate-y-0"
-              leaveTo="opacity-0 translate-y-1"
-            >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"></Popover.Panel>
-            </Transition>
-          </Popover>
-
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Features
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Marketplace
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Company
-          </a>
+          <HeaderLink />
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
@@ -77,11 +51,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
+              <img className="h-12 w-auto" src={Logo} alt="" />
             </a>
             <button
               type="button"
@@ -95,24 +65,7 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Features
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Marketplace
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Company
-                </a>
+                <HeaderLink />
               </div>
               <div className="py-6">
                 <a
