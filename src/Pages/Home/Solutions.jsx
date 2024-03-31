@@ -7,30 +7,40 @@ import { MdGroups3 } from "react-icons/md";
 const Solutions = () => {
   return (
     <>
-      <section className=" w-9/12 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center text-center gap-8">
-        <div className=" space-y-3">
-          <GoDownload className="ml-[37px] text-5xl" />
-          <h3 className="text-center font-medium">Downloads</h3>
+      <section className=" w-9/12 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center text-center">
+        <div className="flex flex-col items-center">
+          <GoDownload className=" text-5xl text-slate-600" />
+          <p className="text-center text-slate-950 font-medium mt-2">
+            Downloads
+          </p>
         </div>
-        <div className=" space-y-3">
-          <GiDiamondTrophy className="ml-[37px] text-5xl" />
-          <h3 className="text-center font-medium">Certifications</h3>
+        <div className="flex flex-col items-center">
+          <GiDiamondTrophy className=" text-5xl text-slate-600" />
+          <p className="text-center text-slate-950 font-medium mt-2">
+            Certifications
+          </p>
         </div>
-        <div className=" space-y-3">
-          <RiPassValidLine className="ml-[37px] text-5xl" />
-          <h3 className="text-center font-medium">Validated</h3>
+        <div className="flex flex-col items-center">
+          <RiPassValidLine className=" text-5xl text-slate-600" />
+          <p className="text-center text-slate-950 font-medium mt-2">
+            Validated
+          </p>
         </div>
-        <div className=" space-y-3">
-          <BsPersonWorkspace className="ml-[37px] text-5xl" />
-          <h3 className="text-center font-medium">Training</h3>
+        <div className="flex flex-col items-center">
+          <BsPersonWorkspace className=" text-5xl text-slate-600" />
+          <p className="text-center text-slate-950 font-medium mt-2">
+            Training
+          </p>
         </div>
-        <div className=" space-y-3">
-          <MdGroups3 className="ml-[37px] text-5xl" />
-          <h3 className="text-center font-medium">Community</h3>
+        <div className="flex flex-col items-center">
+          <MdGroups3 className=" text-5xl text-slate-600" />
+          <p className="text-center text-slate-950 font-medium mt-2">
+            Community
+          </p>
         </div>
-        <div className=" space-y-3">
-          <GiHumanTarget className="ml-[37px] text-5xl" />
-          <h3 className="text-center font-medium">Careers</h3>
+        <div className="flex flex-col items-center">
+          <GiHumanTarget className=" text-5xl text-slate-600" />
+          <p className="text-center text-slate-950 font-medium mt-2">Careers</p>
         </div>
       </section>
     </>

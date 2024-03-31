@@ -18,11 +18,11 @@ const Banner = () => {
           </p>
         </div>
         <div className="mt-12 flex items-center justify-center gap-8">
-          <button className="bg-[#33B08D] text-slate-50 text-xl font-medium p-5 btn rounded-full">
+          <button className="bg-[#33B08D] text-slate-50 font-bold px-6 py-4 btn rounded-full">
             Find out more
           </button>
           <div className=" flex items-center justify-center">
-            <p className=" text-xl font-semibold hover:underline text-[#33B08D]">
+            <p className=" text-xl font-semibold hover:underline hover:cursor-pointer text-[#33B08D]">
               Hear from Cisco and Splunk execs
             </p>
             <MdChevronRight className="text-[#33B08D] text-xl" />
