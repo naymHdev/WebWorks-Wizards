@@ -3,7 +3,7 @@ import Help from "./Help";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#EFEFEF] text-slate-700 py-10">
+    <footer className="bg-[#EFEFEF] text-slate-700 pt-16 mt-16">
       <Help />
       <div className=" w-11/12 mx-auto flex py-8 justify-between items-center">
         <div className="flex flex-col">
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <div className="mt-4 text-center text-sm pb-3">
+      <div className="text-center text-sm bg-slate-800 text-slate-50 py-2 font-semibold">
         <span>
           &copy; {new Date().getFullYear()} WebWorks Wizards. All rights
           reserved.
