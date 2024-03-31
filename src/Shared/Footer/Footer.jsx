@@ -1,26 +1,42 @@
 import { Link } from "react-router-dom";
+import Help from "./Help";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white">
-      <div className="container mx-auto flex py-8 justify-between items-center">
+    <footer className="bg-[#EFEFEF] text-slate-700 py-10">
+      <Help />
+      <div className=" w-11/12 mx-auto flex py-8 justify-between items-center">
         <div className="flex flex-col">
           <Link to="/">
-            <span className="text-4xl font-semibold">WebWorks Wizards</span>
+            <span className="text-4xl font-semibold text-slate-950">
+              WebWorks Wizards
+            </span>
           </Link>
           <span className="text-sm">Crafting digital magic</span>
         </div>
         <div className="flex space-x-4">
-          <a href="/" className="text-gray-300 hover:text-white">
+          <a
+            href="/"
+            className=" text-slate-700 hover:text-slate-950 hover:font-semibold"
+          >
             Home
           </a>
-          <a href="/services" className="text-gray-300 hover:text-white">
+          <a
+            href="/services"
+            className=" text-slate-700 hover:text-slate-950 hover:font-semibold"
+          >
             Services
           </a>
-          <a href="/about" className="text-gray-300 hover:text-white">
+          <a
+            href="/about"
+            className=" text-slate-700 hover:text-slate-950 hover:font-semibold"
+          >
             About
           </a>
-          <a href="/contact" className="text-gray-300 hover:text-white">
+          <a
+            href="/contact"
+            className=" text-slate-700 hover:text-slate-950 hover:font-semibold"
+          >
             Contact
           </a>
         </div>

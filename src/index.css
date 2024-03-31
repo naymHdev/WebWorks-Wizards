@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*input {
+  border: none;
+  width: 100%;
+  background: inherit;
+  border: 2px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+* input :focus {
+  outline: none;
+}
