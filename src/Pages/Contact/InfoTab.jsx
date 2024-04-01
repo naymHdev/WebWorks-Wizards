@@ -1,6 +1,7 @@
 import { Tab } from "@headlessui/react";
 import { FaArrowRight } from "react-icons/fa6";
 import ContactFrom from "./ContactFrom";
+import SupportTab from "./SupportTab";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -76,7 +77,9 @@ export default function InfoTab() {
               </div>
             </div>
           </Tab.Panel>
-          <Tab.Panel>Contact Support</Tab.Panel>
+          <Tab.Panel>
+            <SupportTab />
+          </Tab.Panel>
         </Tab.Panels>
       </Tab.Group>
     </div>
