@@ -29,7 +29,7 @@ const Technology = () => {
         </div>
       </section>
       <section className="mt-16 w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        <div className=" border px-5 py-3 h-56 hover:bg-[#EFEFEF]">
+        <div className=" border hover:cursor-pointer  px-5 py-3 h-56 hover:bg-[#EFEFEF]">
           <div>
             <GiArtificialIntelligence className=" text-6xl" />
           </div>
@@ -38,7 +38,7 @@ const Technology = () => {
             <FaArrowRightLong className=" text-xl" />
           </div>
         </div>
-        <div className=" border px-5 py-3 h-56 hover:bg-[#EFEFEF]">
+        <div className=" border hover:cursor-pointer  px-5 py-3 h-56 hover:bg-[#EFEFEF]">
           <div>
             <SiSoundcharts className=" text-6xl" />
           </div>
@@ -47,7 +47,7 @@ const Technology = () => {
             <FaArrowRightLong className=" text-xl" />
           </div>
         </div>
-        <div className=" border px-5 py-3 h-56 hover:bg-[#EFEFEF]">
+        <div className=" border hover:cursor-pointer  px-5 py-3 h-56 hover:bg-[#EFEFEF]">
           <div>
             <LiaServerSolid className=" text-6xl" />
           </div>
@@ -56,7 +56,7 @@ const Technology = () => {
             <FaArrowRightLong className=" text-xl" />
           </div>
         </div>
-        <div className=" border px-5 py-3 h-56 hover:bg-[#EFEFEF]">
+        <div className=" border hover:cursor-pointer  px-5 py-3 h-56 hover:bg-[#EFEFEF]">
           <div>
             <FaDatabase className=" text-6xl" />
           </div>
@@ -65,7 +65,7 @@ const Technology = () => {
             <FaArrowRightLong className=" text-xl" />
           </div>
         </div>
-        <div className=" border px-5 py-3 h-56 hover:bg-[#EFEFEF]">
+        <div className=" border hover:cursor-pointer  px-5 py-3 h-56 hover:bg-[#EFEFEF]">
           <div>
             <GoGitMerge className=" text-6xl" />
           </div>
@@ -74,7 +74,7 @@ const Technology = () => {
             <FaArrowRightLong className=" text-xl" />
           </div>
         </div>
-        <div className=" border px-5 py-3 h-56 hover:bg-[#EFEFEF]">
+        <div className=" border hover:cursor-pointer  px-5 py-3 h-56 hover:bg-[#EFEFEF]">
           <div>
             <TbBrandDatabricks className=" text-6xl" />
           </div>
@@ -83,7 +83,7 @@ const Technology = () => {
             <FaArrowRightLong className=" text-xl" />
           </div>
         </div>
-        <div className=" border px-5 py-3 h-56 hover:bg-[#EFEFEF]">
+        <div className=" border hover:cursor-pointer  px-5 py-3 h-56 hover:bg-[#EFEFEF]">
           <div>
             <FaUserLock className=" text-6xl" />
           </div>
@@ -92,7 +92,7 @@ const Technology = () => {
             <FaArrowRightLong className=" text-xl" />
           </div>
         </div>
-        <div className=" border px-5 py-3 h-56 hover:bg-[#EFEFEF]">
+        <div className=" border hover:cursor-pointer px-5 py-3 h-56 hover:bg-[#EFEFEF]">
           <div>
             <MdStorage className=" text-6xl" />
           </div>
