@@ -18,7 +18,7 @@ export default function InfoTab() {
                 "w-full rounded-lg py-2.5 text-sm font-medium leading-5",
                 "ring-white/60 ring-offset-2 ring-offset-[#33B08D] focus:outline-none focus:ring-2",
                 selected
-                  ? "bg-white text-[#33B08D] shadow"
+                  ? "bg-white text-[#33B08D] shadow-md"
                   : "text-[#a7ecd8] hover:bg-white/[0.12] hover:text-white"
               )
             }
@@ -31,7 +31,7 @@ export default function InfoTab() {
                 "w-full rounded-lg py-2.5 text-sm font-medium leading-5",
                 "ring-white/60 ring-offset-2 ring-offset-[#33B08D] focus:outline-none focus:ring-2",
                 selected
-                  ? "bg-white text-[#33B08D] shadow"
+                  ? "bg-white text-[#33B08D] shadow-md"
                   : "text-[#b7dad0] hover:bg-white/[0.12] hover:text-white"
               )
             }
@@ -39,7 +39,7 @@ export default function InfoTab() {
             Contact Support
           </Tab>
         </Tab.List>
-        <Tab.Panels className="mt-8 md:px-10 w-full">
+        <Tab.Panels className="mt-8 p-2 md:p-5 w-full border rounded-md shadow-xl">
           <Tab.Panel>
             <div className="md:flex justify-between">
               <section>
