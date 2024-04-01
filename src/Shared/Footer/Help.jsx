@@ -32,25 +32,25 @@ const Help = () => {
           <div className="grid md:flex gap-2 items-center">
             <div className=" grid grid-cols-2 gap-2">
               <div className="bg-[#33B08D] py-[14px] px-10 text-slate-50">
-                <div className=" grid items-center justify-center">
+                <div className=" grid items-center justify-center hover:cursor-pointer">
                   <MdOutlineLocalGroceryStore className=" text-7xl " />
                   <p>How to Buy?</p>
                 </div>
               </div>
               <div className="bg-[#33B08D] py-[14px] px-10 text-slate-50">
-                <div className=" grid items-center justify-center">
+                <div className=" grid items-center justify-center hover:cursor-pointer">
                   <FaDropbox className=" text-7xl text-center " />
                   <p>Product Support</p>
                 </div>
               </div>
               <div className="bg-[#33B08D] py-[14px] px-10 text-slate-50">
-                <div className=" grid items-center justify-center">
+                <div className=" grid items-center justify-center hover:cursor-pointer">
                   <MdOutlineEmail className=" text-7xl" />
                   <p>Email Sales</p>
                 </div>
               </div>
               <div className="bg-[#33B08D] py-[14px] px-10 text-slate-50">
-                <div className=" grid items-center justify-center">
+                <div className=" grid items-center justify-center hover:cursor-pointer">
                   <PiChatsThin className=" text-7xl" />
                   <p>Chat with Sales</p>
                 </div>
