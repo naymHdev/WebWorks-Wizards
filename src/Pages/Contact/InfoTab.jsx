@@ -8,7 +8,7 @@ function classNames(...classes) {
 
 export default function InfoTab() {
   return (
-    <div className="w-full max-w-md px-2 py-16 sm:px-0">
+    <div className="w-full px-2 py-16 sm:px-0">
       <Tab.Group>
         <Tab.List className=" flex items-center gap-5 border rounded-md border-[#a7ecd8]">
           <Tab
