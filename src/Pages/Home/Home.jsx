@@ -1,6 +1,6 @@
 import Banner from "./Banner";
 import Events from "./Events";
-import Integrations from "./Integrations";
+// import Integrations from "./Integrations";
 import Solutions from "./Solutions";
 import Technology from "./Technology";
 
@@ -11,7 +11,7 @@ const Home = () => {
       <Solutions />
       <Technology />
       <Events />
-      <Integrations />
+      {/* <Integrations /> */}
     </>
   );
 };

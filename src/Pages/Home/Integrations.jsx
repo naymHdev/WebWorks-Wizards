@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
+import Marquee from "react-fast-marquee";
 
 const Integrations = () => {
   const [integration, setIntegration] = useState();
 
   useEffect(() => {
-    fetch("./integrations.json")
+    fetch(
+      "https://raw.githubusercontent.com/naymHdev/WebWorks-Wizards/main/src/assets/integrations.json"
+    )
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch data");
@@ -20,8 +23,6 @@ const Integrations = () => {
       });
   }, []);
 
-  console.log(integration);
-
   return (
     <>
       <div className=" mt-16 px-10">
@@ -35,7 +36,20 @@ const Integrations = () => {
           See our integrations <FaArrowRight />
         </h3>
       </div>
-      <section></section>
+      <section>
+        <div>
+          {integration &&
+            integration?.map((item) => (
+              <div key={item?.id}>
+                <Marquee>
+                  <div className=" flex">
+                    <p>{item?.name}</p>
+                  </div>
+                </Marquee>
+              </div>
+            ))}
+        </div>
+      </section>
     </>
   );
 };
