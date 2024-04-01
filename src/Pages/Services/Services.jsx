@@ -6,7 +6,7 @@ import projectImage from "../../../public/project-services.jpg";
 const Services = () => {
   return (
     <>
-      <div className="bg-[#F4F5F6] flex items-center justify-center py-3 gap-5">
+      <div className="bg-[#F4F5F6] flex items-center justify-center py-3 px-2 gap-5">
         <p>Splunk is now a Web Wizards company.</p>{" "}
         <button className=" border border-[#33B08D] px-5 py-1 hover:bg-[#33B08D] hover:text-slate-50 rounded-full text-[#33B08D]">
           Hear from the exec
