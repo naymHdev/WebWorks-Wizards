@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import { GoChevronRight } from "react-icons/go";
+import { TiGroup } from "react-icons/ti";
+import { HiOutlineOfficeBuilding } from "react-icons/hi";
+import { MdDynamicFeed } from "react-icons/md";
+import InfoTab from "./InfoTab";
 
 const Contact = () => {
   return (
@@ -30,13 +34,32 @@ const Contact = () => {
         </div>
       </section>
       <div className="bg-[#EFEFEF] py-1">
-        <div className=" flex items-center px-5 font-medium">
+        <div className=" flex items-center px-8 font-medium">
           <Link to="/">Home</Link>
           <GoChevronRight />
           <Link to="/contact">Contact Wizards</Link>
         </div>
       </div>
-      <section className=" w-11/12 mx-auto"></section>
+      <section className="mt-8">
+        <div className=" flex px-8 items-center gap-5 border-b pb-3">
+          <div className="flex hover:cursor-pointer items-center gap-2 text-xl font-medium">
+            <TiGroup className="text-[#33B08D]" /> <p>Sales & Support</p>
+          </div>
+          <div className=" flex hover:cursor-pointer items-center gap-2 text-xl font-medium">
+            <HiOutlineOfficeBuilding className="text-[#33B08D]" />{" "}
+            <p>Wizards Offices</p>
+          </div>
+          <div className=" flex hover:cursor-pointer items-center gap-2 text-xl font-medium">
+            <MdDynamicFeed className="text-[#33B08D]" /> <p>Feedback</p>
+          </div>
+        </div>
+        <h2 className=" text-5xl font-bold text-slate-900 px-8 mt-10 mb-6">
+          Contact Sales or Support
+        </h2>
+        <div className=" px-8">
+          <InfoTab />
+        </div>
+      </section>
     </>
   );
 };
