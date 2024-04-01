@@ -10,13 +10,13 @@ import { MdStorage } from "react-icons/md";
 const Technology = () => {
   return (
     <>
-      <section className="w-11/12 mx-auto mt-24 flex justify-between">
+      <section className="w-11/12 mx-auto mt-24 md:flex justify-between">
         <div className="w-full">
-          <h3 className=" text-4xl font-medium text-slate-700">
+          <h3 className="md:text-4xl text-3xl font-medium text-slate-700">
             Browse our technology
           </h3>
         </div>
-        <div className="w-full">
+        <div className="w-full mt-5 md:mt-0">
           <p className=" text-xl">
             From our flagship products for enterprise{" "}
             <span className="text-[#33B08D]">hybrid cloud infrastructure</span>{" "}

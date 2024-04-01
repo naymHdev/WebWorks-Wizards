@@ -12,7 +12,7 @@ const Help = () => {
             <h2 className="text-5xl font-bold text-slate-950 text-center">
               How can we help?
             </h2>
-            <div className=" flex items-center justify-center gap-1">
+            <div className="flex items-center justify-center gap-1">
               <input
                 className=" w-72 py-[10px] px-[5px] bg-slate-100 border focus:outline-none focus:border-blue-500"
                 placeholder="Help me find something"
@@ -21,14 +21,14 @@ const Help = () => {
                 id=""
               />
               <div>
-                <button className="btn text-sm font-medium py-3 px-3 rounded-md bg-[#33B08D] text-slate-50">
+                <button className="btn text-sm font-medium md:py-3 py-1 px-3 rounded-md bg-[#33B08D] text-slate-50">
                   Search Wizards
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="w-full">
+        <div className="w-full mt-8 md:mt-0">
           <div className="grid md:flex gap-2 items-center">
             <div className=" grid grid-cols-2 gap-2">
               <div className="bg-[#33B08D] py-[14px] px-10 text-slate-50">
