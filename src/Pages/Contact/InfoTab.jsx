@@ -39,7 +39,7 @@ export default function InfoTab() {
             Contact Support
           </Tab>
         </Tab.List>
-        <Tab.Panels className="mt-8 p-2 md:p-5 w-full border rounded-md shadow-xl">
+        <Tab.Panels className="mt-8 p-2 md:p-5 w-full border rounded-md shadow-md">
           <Tab.Panel>
             <div className="md:flex justify-between">
               <section>

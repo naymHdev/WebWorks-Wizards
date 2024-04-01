@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Bytebook",
+    "logo": "https://example.com/bytebook_logo.png"
+  },
+  {
+    "id": 2,
+    "name": "Microtech",
+    "logo": "https://example.com/microtech_logo.png"
+  },
+  {
+    "id": 3,
+    "name": "Gigabyte",
+    "logo": "https://example.com/gigabyte_logo.png"
+  },
+  {
+    "id": 4,
+    "name": "DataHub",
+    "logo": "https://example.com/datahub_logo.png"
+  },
+  {
+    "id": 5,
+    "name": "Pixelsoft",
+    "logo": "https://example.com/pixelsoft_logo.png"
+  },
+  {
+    "id": 6,
+    "name": "CodeCore",
+    "logo": "https://example.com/codecore_logo.png"
+  },
+  {
+    "id": 7,
+    "name": "TechWorks",
+    "logo": "https://example.com/techworks_logo.png"
+  },
+  {
+    "id": 8,
+    "name": "CloudLink",
+    "logo": "https://example.com/cloudlink_logo.png"
+  },
+  {
+    "id": 9,
+    "name": "ByteTech",
+    "logo": "https://example.com/bytetech_logo.png"
+  },
+  {
+    "id": 10,
+    "name": "NetSync",
+    "logo": "https://example.com/netsync_logo.png"
+  },
+  {
+    "id": 11,
+    "name": "DataStream",
+    "logo": "https://example.com/datastream_logo.png"
+  },
+  {
+    "id": 12,
+    "name": "CodeSphere",
+    "logo": "https://example.com/codesphere_logo.png"
+  },
+  {
+    "id": 13,
+    "name": "PixelWorks",
+    "logo": "https://example.com/pixelworks_logo.png"
+  },
+  {
+    "id": 14,
+    "name": "ByteLogic",
+    "logo": "https://example.com/bytelogic_logo.png"
+  },
+  {
+    "id": 15,
+    "name": "TechForge",
+    "logo": "https://example.com/techforge_logo.png"
+  },
+  {
+    "id": 16,
+    "name": "InnoTech",
+    "logo": "https://example.com/innotech_logo.png"
+  },
+  {
+    "id": 17,
+    "name": "DataLab",
+    "logo": "https://example.com/datalab_logo.png"
+  },
+  {
+    "id": 18,
+    "name": "ByteSync",
+    "logo": "https://example.com/bytesync_logo.png"
+  },
+  {
+    "id": 19,
+    "name": "NetForge",
+    "logo": "https://example.com/netforge_logo.png"
+  },
+  {
+    "id": 20,
+    "name": "TechByte",
+    "logo": "https://example.com/techbyte_logo.png"
+  }
+]

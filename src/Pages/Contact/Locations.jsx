@@ -6,7 +6,7 @@ const Locations = () => {
       <section className="mt-16 px-8">
         <div className="md:w-6/12">
           <h1 className=" text-5xl font-semibold text-slate-950">
-            HPE offices and executive briefing centers
+          Wizards offices and executive briefing centers
           </h1>
           <p className=" text-sm text-slate-800 mt-4">
             Use our list of locations to find your way to one of our office
