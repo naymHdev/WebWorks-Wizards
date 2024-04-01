@@ -1,4 +1,6 @@
 import { Tab } from "@headlessui/react";
+import { FaArrowRight } from "react-icons/fa6";
+import ContactFrom from "./ContactFrom";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -39,20 +41,39 @@ export default function InfoTab() {
         <Tab.Panels className="mt-8 md:px-10 w-full">
           <Tab.Panel>
             <div className=" flex justify-between">
-              <div>
-                <h2 className=" text-3xl font-bold text-slate-950">
-                  Contact Sales
-                </h2>
-                <div className=" mt-8">
-                  <h4 className=" text-xl font-bold text-slate-950">
-                    Products and Solutions
-                  </h4>
-                  <p className="mt-1 font-bold border-b border-b-[#33B08D]">
-                    +880 01770064053
-                  </p>
+              <section>
+                <div>
+                  <h2 className=" text-3xl font-bold text-slate-950">
+                    Contact Sales
+                  </h2>
+                  <div className=" mt-8">
+                    <h4 className=" text-xl font-bold text-slate-950">
+                      Products and Solutions
+                    </h4>
+                    <p className="mt-1 font-medium underline underline-offset-8">
+                      +880 01770064053
+                    </p>
+                  </div>
                 </div>
+                <div className="mt-8">
+                  <div className=" flex items-center gap-2 hover:gap-4 hover:cursor-pointer font-bold text-[#33B08D]">
+                    <p>Email us</p> <FaArrowRight className=" text-xl" />
+                  </div>
+                  <div className=" flex items-center gap-2 hover:gap-4 hover:cursor-pointer font-bold text-[#33B08D]">
+                    <p>Chat with us</p> <FaArrowRight className=" text-xl" />
+                  </div>
+                  <div className=" flex items-center gap-2 hover:gap-4 hover:cursor-pointer font-bold text-[#33B08D]">
+                    <p>Get a quote</p> <FaArrowRight className=" text-xl" />
+                  </div>
+                  <div className=" flex items-center gap-2 hover:gap-4 hover:cursor-pointer font-bold text-[#33B08D]">
+                    <p>Find an HPE Partner near you</p>{" "}
+                    <FaArrowRight className=" text-xl" />
+                  </div>
+                </div>
+              </section>
+              <div>
+                <ContactFrom />
               </div>
-              <div></div>
             </div>
           </Tab.Panel>
           <Tab.Panel>Contact Support</Tab.Panel>
