@@ -40,7 +40,7 @@ export default function InfoTab() {
         </Tab.List>
         <Tab.Panels className="mt-8 md:px-10 w-full">
           <Tab.Panel>
-            <div className=" flex justify-between">
+            <div className="md:flex justify-between">
               <section>
                 <div>
                   <h2 className=" text-3xl font-bold text-slate-950">
@@ -71,7 +71,7 @@ export default function InfoTab() {
                   </div>
                 </div>
               </section>
-              <div>
+              <div className="md:w-7/12 mx-auto">
                 <ContactFrom />
               </div>
             </div>

@@ -4,6 +4,7 @@ import { TiGroup } from "react-icons/ti";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
 import { MdDynamicFeed } from "react-icons/md";
 import InfoTab from "./InfoTab";
+import Locations from "./Locations";
 
 const Contact = () => {
   return (
@@ -60,6 +61,9 @@ const Contact = () => {
           <InfoTab />
         </div>
       </section>
+      <div>
+        <Locations />
+      </div>
     </>
   );
 };

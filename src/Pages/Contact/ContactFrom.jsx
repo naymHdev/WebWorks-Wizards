@@ -23,7 +23,7 @@ const ContactFrom = () => {
 
   return (
     <>
-      <div className="mt-16">
+      <div className="md:mt-16 mt-10">
         <h2 className=" text-4xl font-bold">
           Products and Solutions Inquiries
         </h2>
@@ -105,8 +105,22 @@ const ContactFrom = () => {
                     className="input-field w-full border-b py-1 hover:border-[#33B08D] focus:outline-none"
                   />
                 </div>
+                <div>
+                  <textarea
+                    className="border w-full p-2"
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="5"
+                    placeholder="What products, services or solutions would you like to discuss with a sales expert?"
+                  ></textarea>
+                </div>
               </div>
               <div>
+                <p className=" font-medium text-sm py-4">
+                  May HPE provide you with personalized communications about HPE
+                  and select HPE-partner products, services, offers and events?
+                </p>
                 <label className="flex items-center space-x-2">
                   <input
                     type="checkbox"
@@ -120,7 +134,7 @@ const ContactFrom = () => {
               </div>
               <button
                 type="submit"
-                className="bg-[#37a385] flex items-center justify-center gap-2 hover:bg-[#3fe1b3] text-white font-bold py-2 px-4 rounded-md"
+                className="bg-[#37a385] md:w-6/12 flex items-center justify-center gap-2 hover:bg-[#3fe1b3] text-white font-bold py-2 px-4 rounded-md"
               >
                 Continue <FaArrowRight />
               </button>
