@@ -1,5 +1,6 @@
 import { FaArrowRight } from "react-icons/fa6";
 import Impact from "./Impact";
+import Faq from "./Faq";
 
 const About = () => {
   return (
@@ -58,6 +59,10 @@ const About = () => {
         <div className=" mt-20">
           <h4 className=" text-5xl font-thin">Our impact</h4>
           <Impact />
+        </div>
+        <div className=" mt-20">
+          <h4 className=" text-5xl font-thin">Frequently asked questions</h4>
+          <Faq />
         </div>
       </section>
     </>
