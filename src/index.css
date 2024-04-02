@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-*input {
+/* *input {
   border: none;
   width: 100%;
   background: inherit;
@@ -14,4 +14,4 @@
 
 * input :focus {
   outline: none;
-}
+} */

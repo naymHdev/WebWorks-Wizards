@@ -17,10 +17,12 @@ const Banner = () => {
             that Splunk is now a Cisco company.
           </p>
         </div>
-        <div className="mt-12 md:flex items-center justify-center gap-8">
-          <button className="bg-[#33B08D] ml-5 md:ml-0 text-slate-50 font-bold px-6 py-4 btn rounded-full">
-            Find out more
-          </button>
+        <div className="mt-12 md:flex items-center justify-center md:gap-8 gap-2">
+          <div className=" flex justify-center">
+            <button className="bg-[#33B08D] text-slate-50 font-bold px-6 py-4  btn rounded-full">
+              Find out more
+            </button>
+          </div>
           <div className="mt-5 md:mt-0 flex items-center justify-center">
             <p className="md:text-xl font-semibold hover:underline hover:cursor-pointer text-[#33B08D]">
               Hear from Cisco and Splunk execs

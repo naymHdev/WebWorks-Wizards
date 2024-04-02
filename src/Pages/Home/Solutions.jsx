@@ -7,7 +7,7 @@ import { MdGroups3 } from "react-icons/md";
 const Solutions = () => {
   return (
     <>
-      <section className="hover:cursor-pointer w-9/12 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center text-center">
+      <section className="hover:cursor-pointer w-9/12 mx-auto grid grid-cols-1 space-y-8 md:space-y-0 md:grid-cols-3 lg:grid-cols-6 items-center text-center">
         <div className="flex flex-col items-center">
           <GoDownload className=" text-4xl text-slate-600" />
           <p className="text-center text-slate-950 font-medium mt-2">
