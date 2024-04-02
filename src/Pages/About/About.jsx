@@ -56,13 +56,28 @@ const About = () => {
         </p>
         {/* Our impact
          */}
-        <div className=" mt-20">
+        <div className="md:mt-20">
           <h4 className=" text-5xl font-thin">Our impact</h4>
           <Impact />
         </div>
         <div className=" mt-20">
-          <h4 className=" text-5xl font-thin">Frequently asked questions</h4>
+          <h4 className="md:text-5xl text-3xl font-thin">Frequently asked questions</h4>
           <Faq />
+        </div>
+      </section>
+      {/* Next steps */}
+      <section className="bg-[#EFEFEF]">
+        <div className="md:w-10/12 w-11/12 mx-auto mt-16 space-y-10 py-10 md:py-20">
+          <h3 className=" text-6xl font-thin">Next steps</h3>
+          <p>
+            Get curated newsletters on the latest IBM technology and thought
+            leadership delivered to your inbox.
+          </p>
+          <div>
+            <button className="border text-slate-50 bg-[#33B08D] font-semibold  flex items-center md:gap-5 gap-3 px-5 py-5">
+              Subscribe now <FaArrowRight />
+            </button>
+          </div>
         </div>
       </section>
     </>
