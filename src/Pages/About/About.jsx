@@ -1,9 +1,10 @@
 import { FaArrowRight } from "react-icons/fa6";
+import Impact from "./Impact";
 
 const About = () => {
   return (
     <>
-      <section className=" px-5">
+      <section className="md:px-5 px-2">
         <div className="md:flex justify-between gap-1">
           <div className=" w-full md:order-last">
             <img
@@ -12,8 +13,8 @@ const About = () => {
             />
           </div>
           <div className=" w-full">
-            <h2 className=" text-4xl font-medium text-slate-900">
-              About Webworks Wizards
+            <h2 className=" font-thin text-4xl text-slate-900">
+              About WebWorks Wizards
             </h2>
             <div className="md:mt-[230px] mt-8">
               <p className="">
@@ -21,16 +22,42 @@ const About = () => {
                 real world
               </p>
               <div className="md:flex items-center gap-4 md:mt-[35px] mt-8 space-y-3 md:space-y-0">
-                <button className="border bg-[#33B08D] text-slate-50 w-full flex items-center md:gap-5 gap-3 px-5 py-5">
-                  Get the latest IBM news
+                <button className="border font-thin bg-[#33B08D] hover:bg-[#42ebbb] text-slate-50 w-full flex items-center md:gap-5 gap-3 px-5 py-5">
+                  Get the latest WWW news
                   <FaArrowRight />
                 </button>
-                <button className="border text-[#33B08D] border-[#33B08D] hover:text-slate-50 hover:bg-[#33B08D]  w-full flex items-center md:gap-5 gap-3 px-5 py-5">
+                <button className="border text-[#33B08D] border-[#33B08D] hover:text-slate-50 hover:bg-[#33B08D] font-thin w-full flex items-center md:gap-5 gap-3 px-5 py-5">
                   Explore financial information <FaArrowRight />
                 </button>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="md:w-10/12 w-11/12 mx-auto mt-16">
+        <div>
+          <p className=" text-3xl font-mono">
+            "Our clients’ systems support modern society. In making them faster,
+            more productive, and more secure, we don’t just make business work
+            better. We make the world work better."
+          </p>
+        </div>
+        <div className=" mt-14">
+          <h4 className=" text-xl font-medium">Naym Hossen</h4>
+          <p className=" font-serif mt-1">
+            Chairman and CEO <br />
+            WWW
+          </p>
+        </div>
+        <hr className="md:mt-14 mt-5" />
+        <p className="md:mt-5 mt-3 flex items-center gap-3 text-[#33B08D] hover:underline hover:cursor-pointer">
+          See WWW leadership <FaArrowRight />{" "}
+        </p>
+        {/* Our impact
+         */}
+        <div className=" mt-20">
+          <h4 className=" text-5xl font-thin">Our impact</h4>
+          <Impact />
         </div>
       </section>
     </>
