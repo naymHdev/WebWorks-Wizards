@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="">
         <img className="w-full" src={banner} alt="" />
       </div>
-      <section className=" mt-16">
+      <section className="md:mt-16 mt-8">
         <div className=" text-center">
           <h3 className=" text-4xl font-semibold text-slate-900">
             It’s a new day for your data.
@@ -17,7 +17,7 @@ const Banner = () => {
             that Splunk is now a Cisco company.
           </p>
         </div>
-        <div className="mt-12 md:flex items-center justify-center md:gap-8 gap-2">
+        <div className="md:mt-12 mt-8 md:flex items-center justify-center md:gap-8 gap-2">
           <div className=" flex justify-center">
             <button className="bg-[#33B08D] text-slate-50 font-bold px-6 py-4  btn rounded-full">
               Find out more
