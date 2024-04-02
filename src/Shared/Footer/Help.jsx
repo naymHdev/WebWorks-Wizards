@@ -9,7 +9,7 @@ const Help = () => {
       <section className="grid md:flex items-center justify-between">
         <div className="w-full">
           <div className="space-y-5 w-11/12 mx-auto">
-            <h2 className="text-5xl font-bold text-slate-950 text-center">
+            <h2 className="text-5xl font-bold text-slate-50 text-center">
               How can we help?
             </h2>
             <div className="flex items-center justify-center">

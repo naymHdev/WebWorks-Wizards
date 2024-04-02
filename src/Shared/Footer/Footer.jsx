@@ -3,12 +3,12 @@ import Help from "./Help";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#EFEFEF] text-slate-700 pt-16 mt-16">
+    <footer className=" bg-slate-900 text-slate-50 pt-16 mt-16">
       <Help />
       <div className=" w-11/12 mx-auto flex py-8 justify-between items-center">
         <div className="flex flex-col">
           <Link to="/">
-            <span className="text-4xl font-semibold text-slate-950">
+            <span className="text-4xl font-semibold text-slate-50">
               WebWorks Wizards
             </span>
           </Link>
@@ -17,25 +17,25 @@ const Footer = () => {
         <div className="md:flex grid md:space-x-4">
           <a
             href="/"
-            className=" text-slate-700 hover:text-slate-950 hover:font-semibold"
+            className=" text-slate-300 hover:text-slate-50 hover:font-semibold"
           >
             Home
           </a>
           <a
             href="/services"
-            className=" text-slate-700 hover:text-slate-950 hover:font-semibold"
+            className=" text-slate-300 hover:text-slate-50 hover:font-semibold"
           >
             Services
           </a>
           <a
             href="/about"
-            className=" text-slate-700 hover:text-slate-950 hover:font-semibold"
+            className=" text-slate-300 hover:text-slate-50 hover:font-semibold"
           >
             About
           </a>
           <a
             href="/contact"
-            className=" text-slate-700 hover:text-slate-950 hover:font-semibold"
+            className=" text-slate-300 hover:text-slate-50 hover:font-semibold"
           >
             Contact
           </a>
